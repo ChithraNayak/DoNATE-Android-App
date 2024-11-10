@@ -14,8 +14,7 @@
 - **Direct Connections**: Connects donors with NGOs to simplify the donation process.
 - **User Profiles**: Allows donors to create profiles with contact details and track their donations.
 - **NGO Requests**: NGOs can post item requests, making it easy for donors to see and fulfill community needs.
-- **Reviews**: Users can add and check reviews to promote transparency and accountability.
-- **Search by Criteria**: Donors can filter requests based on criteria such as location, type of item, and urgency.
+- **Search by Criteria**: Donors can filter requests based on criteria such as type of item.
 
 ## System Requirements 🖥️
 ### Hardware
