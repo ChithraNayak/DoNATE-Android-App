@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#D8C8F4">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#B190EC"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/loginscrn"
+            android:layout_width="180dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="cursive"
+            android:text="L0GIN"
+            android:textColor="@color/black"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="200dp"
+            android:width="250dp"
+            android:height="50dp"
+            android:background="@drawable/custom"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:ems="10"
+            android:hint=" Username"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="320dp"
+            android:width="250dp"
+            android:height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+            android:background="@drawable/custom"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/forgotpass"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="380dp"
+            android:gravity="center_vertical"
+            android:width="20dp"
+            android:height="20dp"
+            android:text="Forgot password?"
+            android:textColor="#EF0D0D"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="140dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/custom"
+            android:backgroundTint="@color/purple_500"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/newregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:gravity="center"
+            android:text="New Donor? Register"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

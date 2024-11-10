@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DoNate</string>
+    <string-array name="category">
+        <item>Regular Donor</item>
+        <item>Hotel</item>
+        <item>Library</item>
+    </string-array>
+</resources>

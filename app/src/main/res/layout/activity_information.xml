@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information"
+    android:background="#D8C8F4">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        app:cardBackgroundColor="#B190EC"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="190dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_add_photo_alternate_24"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="200dp"
+
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="250dp"
+
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="284dp" />
+
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="206dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="290dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="370dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="420dp"
+            android:text="@string/app_name"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="206dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="460dp"
+            android:inputType="textMultiLine"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="526dp" />
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="550dp"
+            android:text="@string/app_name"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="576dp" />
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="204dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="590dp"
+            android:inputType="textMultiLine"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="91dp"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="625dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:text="Item Name:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="106dp"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="250dp"
+            android:gravity="center"
+            android:text="Item Quantity:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="99dp"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="284dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="290dp"
+            android:gravity="center"
+            android:text="Item Details:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="115dp"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="370dp"
+            android:gravity="center"
+            android:text="Donor Name:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="111dp"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="434dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="420dp"
+            android:gravity="center"
+            android:text="Mobile No:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="110dp"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="484dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="460dp"
+            android:gravity="center"
+            android:text="Email:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="123dp"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="526dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="550dp"
+            android:gravity="center"
+            android:text="Alternate No:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="122dp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="576dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="590dp"
+            android:text="Address:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="27dp"
+            tools:layout_conversion_absoluteWidth="81dp"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
