@@ -19,7 +19,7 @@
 
 ## System Requirements 🖥️
 ### Hardware
-- **PC**: Intel Core i3 5th generation or higher, 10 GB RAM, 128GB SSD or more, Windows 10 (64-bit)
+- **PC**: Intel Core i3 5th generation or higher, 8 GB RAM, 128GB SSD or more, Windows 10 (64-bit)
 - **Android Device**: Android v5.0 or higher, Quad-core processor, 1 GB RAM
 
 ### Software
