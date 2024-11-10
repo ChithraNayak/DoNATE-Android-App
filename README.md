@@ -31,3 +31,21 @@
    ```bash
    git clone https://github.com/ChithraNayak/DoNATE-Android-App.git
    cd DoNATE-Android-App
+
+2. **Open in Android Studio**:
+- Open Android Studio, select "Open an existing project," and navigate to the cloned repository.
+
+3. **Set Up the Emulator (Optional)**:
+- You can set up a virtual device (e.g., Pixel 3a XL with API 30) in Android Studio to test the app.
+
+4. **Build and Run the Application**:
+- Click on Run > Run 'app' in Android Studio.
+
+## Usage 📋
+- Create a Donor Profile: Donors can sign up and create a profile with necessary details.
+- Browse NGO Requests: See item requests from NGOs and filter based on needs and preferences.
+- Make a Donation: Select an item request, contact the NGO, and arrange the donation.
+- Leave a Review: After completing a donation, users can leave a review to encourage others.
+
+## Thank you for supporting a cause that makes a difference! 🌍
+This `README.md` should give users all the information they need to understand, install, and run the DoNATE application.
